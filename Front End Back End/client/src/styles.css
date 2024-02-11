@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+h1{
+    margin: 5px;
+}
+
+p{
+    margin: 5px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.delete-btn {
+    background-color: red;
+   color: antiquewhite;
+}
+
+edit-btn{
+    background-color: rgb(11, 11, 231);
+    color:whitesmoke
+}
+
+.movie-container{
+    display: flex;
+    flex-direction:column;
+    margin: 0 32px;
+}
+
+.movie{
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px
+}
+
+.filter-form{
+    width: 200px
+}

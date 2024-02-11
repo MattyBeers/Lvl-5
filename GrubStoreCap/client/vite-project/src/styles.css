@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+  
+  }
+  
+  h1{
+    margin: 5px;
+  }
+  
+  p{
+    margin: 5px;
+  }
+
+  .rest-container{
+    display: flex;
+    flex-direction:column;
+    margin: 0 32px;
+    border:#061ef1;
+    padding: 75px 
+  }
+
+  .restaurant-box{
+    border: 2px dotted blueviolet;
+    padding: 50 px
+  }
+
+
+.delete-btn{
+  background-color: red;
+  color: antiquewhite
+}
+
+form{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px
+}
